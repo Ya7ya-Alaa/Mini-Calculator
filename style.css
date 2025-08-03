@@ -1,0 +1,51 @@
+* {
+    font-family: 'Trebuchet MS';
+}
+
+.mybtns {
+    padding: 20px;
+}
+
+.mybtns button {
+    font-weight: bold;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 15px;
+}
+
+.display {
+    height: 200px;
+    width: 600px;
+    background-color: rgb(37, 37, 37);
+    margin: 10px;
+    border-radius: 30px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.display h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+#add, #subtract, #multiply, #divide {
+    font-size: larger;
+    border-radius: 30px;
+    background-color: rgb(37, 37, 37);
+    color: white;
+}
